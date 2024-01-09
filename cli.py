@@ -13,7 +13,8 @@ def main():
     result = model.calculate_depthmap(args.input_image, args.output_image)
     print(result)
 
-    #python cli.py test_image.png output_cli.png
+    # python cli.py test_image.png output_cli.png
+
 
 if __name__ == "__main__":
     main()
